@@ -13,11 +13,11 @@ class Home extends Component {
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
-            <img className="first-slide" src="/" alt="First slide"/>
+            <img className="first-slide" src="./assets/slide1.jpg" alt="First slide"/>
             <div className="container">
               <div className="carousel-caption d-none d-md-block text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Our Imagination Our Power</h1>
+                <p>Coustom Solutions to Uinique Problems</p>
               </div>
             </div>
           </div>
