@@ -10,7 +10,8 @@ class Footer extends Component {
               <Link className="brand" to="/"><img src="./assets/logo_full.png" alt="VirutueTechInc" width="230px" height="100px"/></Link>
             </div>
             <div className="row">
-              <i className="fa fa-book  p-1" aria-hidden="true">2018F, 156th Avenue N.E, Suite 176, Bellevue, WA-98007</i>
+              <i className="fa fa-map-marker  p-1" aria-hidden="true">
+                2018F, 156th Avenue N.E, Suite 176, Bellevue, WA-98007</i>
             </div>
             <div className="row">
               <i className="fa fa-phone  p-1" aria-hidden="true">+1(347)-891-5103</i>
