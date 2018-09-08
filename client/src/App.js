@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './css/Styles.css';
+import './Styles.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Main from './components/Main';

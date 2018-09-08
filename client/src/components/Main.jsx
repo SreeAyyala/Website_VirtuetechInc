@@ -12,7 +12,7 @@ import OT from '../pages/Services/Oracle_Services/OT.js';
 import ProfessionalServices from '../pages/Services/Professional_Services/';
 import Trainings from '../pages/Trainings/';
 import ContactUs from '../pages/ContactUs/';
-import Blog from '../pages/Blog';
+// import Blog from '../pages/Blog';
 
 class Main extends React.Component {
   // state = {
@@ -43,8 +43,7 @@ class Main extends React.Component {
           <Route path='/Oracle_Services' component={OracleServices}/>
           <Route path='/Cloud_Services' component={CloudServices}/>
           <Route path='/Trainings' component={Trainings}/>
-          <Route path='/ContactUs' component={ContactUs}/>
-          <Route path='/Blog' component={Blog}/>
+          <Route path='/ContactUs' component={ContactUs}/> {/* <Route path='/Blog' component={Blog}/> */}
 
         </Switch>
       </div>

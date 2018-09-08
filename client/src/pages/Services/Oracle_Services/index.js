@@ -24,40 +24,47 @@ class OracleServices extends Component {
         <div className="sub_container">
           <div className="row">
             <div className="col">
-              <img src="./icons_2_png/upload.png" alt="database" width="200px" height="200px"></img>
-              <h3 className="p-4">Oracle Implementations & Upgrades</h3>
-              <p>At VirtueTech Inc we offer end-to-end ERP implementation and tracking using best practices...</p>
+              <i className="fa fa-cloud fa-5x" aria-hidden="true"></i>
+              <h3 className="p-4">Oracle Cloud Services</h3>
+              <p>Almost all large companies use Enterprise Resource Planning (ERP) systems for managing and optimizing their business processes. Among many companies across the world Cloud adoption is growing rapidly…</p>
               <p>
                 <Link className="btn btn-secondary" to="/Oracle_Services/OIU" role="button">View details &raquo;</Link>
               </p>
             </div>
             <div className="col">
-              <img src="./icons_2_png/layout.png" alt="database" width="200px" height="200px"></img>
+              <i className="fa fa-cloud fa-5x" aria-hidden="true"></i>
+              <h3 className="p-4">Oracle Implementations & Upgrades</h3>
+              <p>To meet your growing business needs, one needs the technology upgrades. However, Oracle Implementations or Upgrades are complex as there are many moving parts…</p>
+              <p>
+                <Link className="btn btn-secondary" to="/Oracle_Services/OIU" role="button">View details &raquo;</Link>
+              </p>
+            </div>
+            <div className="col">
+              <i className="fa fa-cloud fa-5x" aria-hidden="true"></i>
               <h3 className="p-4">Oracle Customization</h3>
-              <p>VirtueTech Inc’s comprehensive Oracle EBS offerings come in at the pre-implementation stage...</p>
+              <p>Oracle EBS Is A Robust Enterprise Solution, But we still need to customize the application to meet the rapid business growth and to face the increased global competition.</p>
               <p>
                 <Link className="btn btn-secondary" to="/Oracle_Services/OC" role="button">View details &raquo;</Link>
               </p>
             </div>
-          </div>
-          <div className="row p-4">
             <div className="col">
-              <img src="./icons_2_png/text.png" alt="database" width="200px" height="200px"></img>
+              <i className="fa fa-cloud fa-5x" aria-hidden="true"></i>
               <h3 className="p-4">Oracle Testing</h3>
-              <p>At VirtueTech Inc we offer end-to-end ERP implementation and tracking using best practices...</p>
+              <p>VT - Regression Testing as a Service, Oracle is a very configurable ERP. While this allows businesses to be extremely flexible, it puts an enormous amount of stress on testing for changes.</p>
               <p>
                 <Link className="btn btn-secondary" to="/Oracle_Services/OT" role="button">View details &raquo;</Link>
               </p>
             </div>
             <div className="col">
-              <img src="./icons_2_png/brainstorming.png" alt="database" width="200px" height="200px"></img>
+              <i className="fa fa-cloud fa-5x" aria-hidden="true"></i>
               <h3 className="p-4">VT's Oracle Consulting Services</h3>
-              <p>VirtueTech Inc’s comprehensive Oracle EBS offerings come in at the pre-implementation stage...</p>
+              <p>An organization has requirements for Oracle consultants</p>
               <p>
                 <Link className="btn btn-secondary" to="/Oracle_Services/OCS" role="button">View details &raquo;</Link>
               </p>
             </div>
           </div>
+
           <p className="p-4">Our experts are not just idealists but practical, understand customer priorities and find innovative ways to optimize business process while gaining predictability of costs.</p>
         </div>
       </div>

@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (<Fragment>
       <nav id="navbar" className="navbar navbar-expand-lg navbar-light">
-        <Link className="navbar-brand" to="/"><img src="./assets/Logo_full.png" alt="VirutueTechInc" width="350px" height="130px"/></Link>
+        <Link className="navbar-brand" to="/"><img src="../assets/Company_logos/Logo_full.png" alt="VirutueTechInc" width="250px" height="90px"/></Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -37,11 +37,12 @@ class Navbar extends Component {
                 <span>About-Us</span>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/Blog">
                 <span>Blog</span>
               </Link>
-            </li>
+            </li> */
+            }
             <li className="nav-item">
               <Link className="nav-link" to="/ContactUs">
                 <span>Contact-Us</span>
